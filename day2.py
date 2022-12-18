@@ -3,7 +3,7 @@ strategy_1 = {"A": "Y", "B": "Z", "C": "X"}
 mapping = {"A": "X", "B": "Y", "C": "Z"}
 
 
-def rps():
+def day2():
     with open("./day2input.txt", "r") as file:
         games = [line.strip().split(" ") for line in file.readlines()]
         print(games)
@@ -48,4 +48,4 @@ def rps():
 
 
 if __name__ == "__main__":
-    rps()
+    day2()

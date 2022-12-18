@@ -1,5 +1,5 @@
 
-def maxCal():
+def day1():
     calories = []
 
     with open("./day1input1.txt", "r") as file:
@@ -23,4 +23,4 @@ def maxCal():
 
 
 if __name__ == "__main__":
-    maxCal()
+    day1()
