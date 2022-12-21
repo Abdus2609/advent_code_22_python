@@ -1,5 +1,5 @@
 def day3():
-    with open("./day3input.txt", "r") as file:
+    with open("./input3.txt", "r") as file:
         lines = [line.strip() for line in file.readlines()]
 
         # part 1

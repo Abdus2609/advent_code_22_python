@@ -2,7 +2,7 @@
 def day1():
     calories = []
 
-    with open("./day1input1.txt", "r") as file:
+    with open("./input1.txt", "r") as file:
         lines = [line.strip() for line in file.readlines()]
         lines.append('')
 

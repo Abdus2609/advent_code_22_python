@@ -1,7 +1,7 @@
 def day4():
     result_1 = 0
     result_2 = 0
-    with open("./day4input.txt", "r") as file:
+    with open("./input4.txt", "r") as file:
         lines = [line.strip().split(",") for line in file.readlines()]
         for line in lines:
             (start1, end1, start2, end2) = (

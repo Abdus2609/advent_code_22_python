@@ -4,7 +4,7 @@ mapping = {"A": "X", "B": "Y", "C": "Z"}
 
 
 def day2():
-    with open("./day2input.txt", "r") as file:
+    with open("./input2.txt", "r") as file:
         games = [line.strip().split(" ") for line in file.readlines()]
         print(games)
 
