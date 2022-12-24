@@ -46,6 +46,7 @@ def day9():
 
         print(len(visited_2))
 
+
 def recalculate(p1, p2):
     dr = p1[0] - p2[0]
     dc = p1[1] - p2[1]
